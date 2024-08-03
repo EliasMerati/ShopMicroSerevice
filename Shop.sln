@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{CEBD520A-1D48-4F25-8DAF-095DD3ECC827}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BD62FADE-16BB-40A9-AB83-090DDCC592BD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{3FBA740A-D22D-4EF6-A5C2-EE7C016CF5EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DF75A9B1-6574-4E90-9CD4-CBEC6E6F4AB7}"
@@ -25,15 +23,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportService", "ReportServ
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchService", "SearchService", "{90A69DD0-CA47-472B-BAA6-25673EE46963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Presentation", "Src\Services\IDPService\IDP.Presentation\IDP.Presentation.csproj", "{F2693816-CC24-4D29-A429-A82B51A5CB65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Presentation", "Src\Services\IDPService\IDP.Presentation\IDP.Presentation.csproj", "{F2693816-CC24-4D29-A429-A82B51A5CB65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Application", "Src\Services\IDPService\IDP.Application\IDP.Application.csproj", "{720E0DAB-0DD1-4E22-886E-935FEF839316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Application", "Src\Services\IDPService\IDP.Application\IDP.Application.csproj", "{720E0DAB-0DD1-4E22-886E-935FEF839316}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Persistance", "Src\Services\IDPService\IDP.Persistance\IDP.Persistance.csproj", "{417DE2B8-17DD-499A-A77D-2D8799F9DAEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Persistance", "Src\Services\IDPService\IDP.Persistance\IDP.Persistance.csproj", "{417DE2B8-17DD-499A-A77D-2D8799F9DAEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Domain", "Src\Services\IDPService\IDP.Domain\IDP.Domain.csproj", "{4F6882C8-D462-47F7-9181-4405604446C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Domain", "Src\Services\IDPService\IDP.Domain\IDP.Domain.csproj", "{4F6882C8-D462-47F7-9181-4405604446C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Infrastracture", "Src\Services\IDPService\IDP.Infrastracture\IDP.Infrastracture.csproj", "{008AF387-C262-41EA-A63E-63895748CC5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Infrastracture", "Src\Services\IDPService\IDP.Infrastracture\IDP.Infrastracture.csproj", "{008AF387-C262-41EA-A63E-63895748CC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Test", "Src\Services\IDPService\IDP.Test\IDP.Test.csproj", "{52F39355-4710-480F-A098-69E5131E5B13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +61,10 @@ Global
 		{008AF387-C262-41EA-A63E-63895748CC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{008AF387-C262-41EA-A63E-63895748CC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{008AF387-C262-41EA-A63E-63895748CC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F39355-4710-480F-A098-69E5131E5B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F39355-4710-480F-A098-69E5131E5B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F39355-4710-480F-A098-69E5131E5B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F39355-4710-480F-A098-69E5131E5B13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +83,7 @@ Global
 		{417DE2B8-17DD-499A-A77D-2D8799F9DAEC} = {F274E07A-3A06-40C4-9D04-67EE9D9CFBFC}
 		{4F6882C8-D462-47F7-9181-4405604446C6} = {F274E07A-3A06-40C4-9D04-67EE9D9CFBFC}
 		{008AF387-C262-41EA-A63E-63895748CC5A} = {F274E07A-3A06-40C4-9D04-67EE9D9CFBFC}
+		{52F39355-4710-480F-A098-69E5131E5B13} = {F274E07A-3A06-40C4-9D04-67EE9D9CFBFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62027E4C-24B6-416E-A22D-B466DAB3BFDC}

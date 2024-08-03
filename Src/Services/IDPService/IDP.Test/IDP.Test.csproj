@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\IDP.Application\IDP.Application.csproj" />
-  </ItemGroup>
-
 </Project>
